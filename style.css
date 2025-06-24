@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Celular</title>
+</head>
+<body>
+    <h1>Adicionar Celular</h1>
+    <form action="/adicionar" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+        <label for="preco">Preço:</label>
+        <input type="text" id="preco" name="preco" required><br><br>
+        <label for="estoque">Estoque:</label>
+        <input type="number" id="estoque" name="estoque" required><br><br>
+        <button type="submit">Adicionar</button>
+    </form>
+    <br>
+    <a href="/">Voltar para a loja</a>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    width: 200px;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: grey;
+}
