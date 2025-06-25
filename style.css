@@ -78,12 +78,6 @@ button:hover {
   background: #218838;
 }
 📜 script.js
-
 javascript
-Copiar
-Editar
-document.querySelectorAll("button").forEach(button => {
-  button.addEventListener("click", () => {
-    alert("Produto adicionado ao carrinho!");
   });
 });
