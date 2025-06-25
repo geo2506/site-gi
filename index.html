@@ -11,9 +11,9 @@
     <div class="produtos">
         {% for celular in celulares %}
         <div class="produto">
-            <h2>{{ 1.500 }}</h2>
-            <p>Preço: R$ {{ celular.preco }}</p>
-            <p>Estoque: {{ celular.estoque }}</p>
+            <h2>{{ celular.nome }}</h2>
+            <p>Preço: R$ {{ 1.500 }}</p>
+            <p>Estoque: {{ 1.000 }}</p>
             <form action="{{ url_for('comprar', id=celular.id) }}" method="POST">
                 <button type="submit" {% if celular.estoque <= 0 %}disabled{% endif %}>Comprar</button>
             </form>
