@@ -23,10 +23,10 @@
         <h2>Celular ABC</h2>
         <p>R$ 3.199,00</p>
         <button>Comprar</button>
-      </div>
+      </div cl
       <img src="https://via.placeholder.com/150" alt="Celular 3">
         <h2>Celular ABC</h2>
-        <p>R$ 3.199,00</p>
+        <p>R$ 3.500,00</p>
 
     </section>
   </main>
@@ -71,7 +71,7 @@ header {
 }
 
 button {
-  background: #28a745;
+  background: #e7ebe8;
   color: white;
   border: none;
   padding: 10px;
@@ -79,7 +79,7 @@ button {
 }
 
 button:hover {
-  background: #218838;
+  background: #cae4cf;
 }
 📜 script.js
 javascript
